@@ -12,5 +12,12 @@ def arnaldo(name, order, burger_orders):
     return burger_orders
 
 
+def joao(name, order, day, days, joao_visit, menu, joao_orders):
+    menu.add(order)
+    days.add(day)
+    if name == 'joao':
+        joao_orders.add(order)
+        joao_visit.add(day)
+
 def analyze_log(path_to_file):
     raise NotImplementedError
