@@ -22,6 +22,7 @@ def joao(name, order, day, days, joao_visit, menu, joao_orders):
         joao_orders.add(order)
         joao_visit.add(day)
 
+
 def analyze_log(path_to_file):
     if 'csv' in path_to_file:
         burger_orders = 0
